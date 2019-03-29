@@ -1,0 +1,17 @@
+h1 {
+	color:#fd7e14;
+	text-align:center;
+	background-color:blue;
+}
+ul{
+	padding-left: 10px;
+	margin: 50px;
+}
+
+.container {
+	text-align:center;
+	color:blue;
+}
+body{
+	background-color:red;
+}

@@ -38,3 +38,11 @@ Route::get('/produk', 'produkController@index');
 Route::get('/create', function () {  
 echo "Route diakses menggunakan nama"; 
 })->name('create');
+
+Route::get('/produk/show', 'produkController@show');
+
+Route::get('/halaman',function(){ 
+$title = 'Harry Pooter'; 
+$konten = 'harry potter and the deathly hallows: part 2';
+ return view('konten.halaman',compact('title','konten'));
+ });  
