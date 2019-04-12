@@ -46,3 +46,11 @@ $title = 'Harry Pooter';
 $konten = 'harry potter and the deathly hallows: part 2';
  return view('konten.halaman',compact('title','konten'));
  });  
+ 
+ Route::get('/pelanggan', 'pelangganController@index'); 
+ 
+ Route::resource('produk','produkController');
+ 
+ 
+ 
+ 
