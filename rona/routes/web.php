@@ -49,7 +49,15 @@ $konten = 'harry potter and the deathly hallows: part 2';
  
  Route::get('/pelanggan', 'pelangganController@index'); 
  
- Route::resource('produk','produkController');
+ Route::resource(`produk`,`produkController`);
+ 
+ Route::get('/produk/store', 'produkController@store'); 
+ 
+ Route::get('/produk/update', 'produkController@update');
+ 
+ Route::get('/produk/delete', 'produkController@delete'); 
+ 
+ 
  
  
  
